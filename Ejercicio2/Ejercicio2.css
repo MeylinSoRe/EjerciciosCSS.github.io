@@ -1,5 +1,5 @@
-<style type="text/css">
 /* No borrar la siguiente regla CSS porque es necesaria para ver los bordes de la tabla */
+
 table, tr, th, td {border:1px solid #000; border-collapse:collapse; padding:5px;}
 
 h1#titulo { color: teal; }
@@ -23,4 +23,3 @@ td { color: green; }
 td strong { color: orange; }
 th { color: red; }
 th.especial { color: orange; }
-</style>
