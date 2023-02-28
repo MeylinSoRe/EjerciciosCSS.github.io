@@ -27,23 +27,11 @@ img{
   margin:0 auto;
 }
 
-#cabecera,#lateral,#contenido,#contenido #principal,#contenido #secundario,#pie{
+#cabecera,#menu, #lateral,#contenido,#contenido #principal,#contenido #secundario,#pie{
   border:2px solid #777;
 }
 
-#menu{list-style-type: none;
-			margin: 10;
-			overflow: hidden;
-			background-color: #333;
-      float: left;
-      display: block;
-			color: white;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-  
 
-}
 #cabecera{
   clear:both;
 }
