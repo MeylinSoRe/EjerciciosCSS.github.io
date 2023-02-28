@@ -64,7 +64,7 @@ img { border: none; }
 }
 
 #cabecera h1 {
-  background: url(../comun/imagenes/logo.gif) no-repeat -5px -10px;
+  background: href(../Ejercicio5/logo.png) no-repeat -5px -10px;
 }
 
 #cabecera h1 span {
