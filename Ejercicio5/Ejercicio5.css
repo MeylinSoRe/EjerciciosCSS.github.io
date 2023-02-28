@@ -1,22 +1,9 @@
-ul, ul li { 
-  margin: 10;
-  padding: 0;
-  list-style: none; 
-}
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, p, form { margin: 0; padding: 0; }
+.clear { clear: both; }
+img { border: none; }
 
-h1, h2, h3, p, form {
-  margin: 10;
-  padding: 0; 
-}
-
-.clear {
-  clear: both; 
-}
-
-img {
-  border: none; 
-}
-
+/*-- Layout ----------------------------------------------------------*/
 #contenedor {
   width: 90%;
   max-width: 900px;
@@ -50,11 +37,10 @@ img {
 #pie .enlaces   { float: left; }
 #pie .copyright { float: right; }
 
-/* === IMPORTANTE ===================================================
-   A partir de aquí, se pueden añadir todos los estilos propios que 
+/* === IMPORTANTE ===
+   A partir de aquí, se pueden añadir todos los estilos propios que
    sean necesarios.
-   ================================================================== */
-
+   ================= */
 
 #cabecera,
 #menu,
@@ -77,9 +63,18 @@ img {
   padding: 1em;
 }
 
+#cabecera h1 {
+  background: url(../comun/imagenes/logo.gif) no-repeat -5px -10px;
+}
+
+#cabecera h1 span {
+  visibility: hidden;
+}
+
 #menu {
   margin-bottom: .5em;
   border-bottom: 1px solid #004C99;
+  background: href(../Ejercicio5/fondo_menu.png) repeat-x;
 }
 
 #contenido {
@@ -95,28 +90,34 @@ img {
   border: 1px solid #C60;
 }
 
+#contenido #secundario h2 {
+    background: #DB905C;
+  padding: .2em;
+}
+
 #pie {
   padding: .5em 0;
   margin-top: 1em;
   border-top: 1px solid #C5C5C5;
   border-bottom: 1px solid #C5C5C5;
+  background: #F8F8F8;
 }
 
 #contenido #principal .articulo {
   margin-bottom: 1em;
 }
 
-#contenido #principal .articulo img { 
+#contenido #principal .articulo img {
   margin: .5em;
 }
 
 #lateral #noticias {
   border: 1px solid #C5C5C5;
+  background: #F8F8F8;
 }
 
 #lateral #publicidad {
   margin-top: 1em;
   border: 1px dashed #C60;
+  background: #FFF6CD;
 }
-
-
