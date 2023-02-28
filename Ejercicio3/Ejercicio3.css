@@ -48,7 +48,7 @@ img{
   width:78%;
 }
 
-#contenido,#principal{
+#contenido #principal{
   float:left;
   width:78%;
 }
