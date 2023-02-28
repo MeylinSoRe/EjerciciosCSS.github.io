@@ -1,13 +1,13 @@
 @charset "utf-8";
   
 ul,ul li{
-  margin:0;
+  margin:10;
   padding:0;
   list-style:none;
 }
 
 h1,h2,h3,p,form{
-  margin:0;
+  margin:10;
   padding:0;
 }
 
@@ -17,7 +17,7 @@ h1,h2,h3,p,form{
 
 img{
   border:none;
-  marginwidth:10 ;
+  margin:10;
 }
 
 #contenedor{
