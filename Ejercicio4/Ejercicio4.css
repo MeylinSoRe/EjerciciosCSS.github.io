@@ -1,12 +1,12 @@
 @charset "UFT-8";
 ul,ul li{
-  margin:0;
+  margin:10;
   padding:0;
   list-style:none;
 }
 
 h1,h2,h3,p,form{
-  margin:0;
+  margin:10;
   padding:0;
 }
 
@@ -22,7 +22,7 @@ img{
   width:90%;
   max-width:900px;
   width:expression(document.body.clientWidth > 901? "900px":"auto");
-  margin:0 auto;
+  margin:10 auto;
 }
 
 #cabecera,#menu,#lateral,#contenido,#contenido #principal,#contenido #secundario,#pie{
