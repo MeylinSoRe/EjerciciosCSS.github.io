@@ -78,7 +78,7 @@ img { border: none; }
 }
 
 #cabecera h1 {
-  background: url(../Ejercicio5/logo.png) no-repeat -5px -10px;
+  background: url(logo.png) no-repeat -5px -10px;
 }
 
 #cabecera h1 span {
