@@ -78,7 +78,7 @@ img { border: none; }
 }
 
 #cabecera h1 {
-  background: href="../Ejercicio5/logo.png" no-repeat -5px -10px;
+  background: url(../Ejercicio5/logo.png) no-repeat -5px -10px;
 }
 
 #cabecera h1 span {
@@ -88,7 +88,7 @@ img { border: none; }
 #menu {
   margin-bottom: .5em;
   border-bottom: 1px solid #004C99;
-  background: href="../Ejercicio5/fondo_menu.png" repeat-x;
+  background: url("../Ejercicio5/fondo_menu.png) repeat-x;
 }
 
 #contenido {
