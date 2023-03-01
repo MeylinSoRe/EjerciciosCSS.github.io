@@ -78,7 +78,7 @@ img { border: none; }
 }
 
 #cabecera h1 {
-  background: url("https://github.com/MeylinSoRe/EjerciciosCSS.github.io/blob/a093e16c8eefa8f4d7fd74274dfcd7c20033d299/Ejercicio5/logo.png") no-repeat -5px -10px;
+  background: url(../Ejercicio5/logo.gif) no-repeat -5px -10px;
 }
 
 #cabecera h1 span {
@@ -88,7 +88,7 @@ img { border: none; }
 #menu {
   margin-bottom: .5em;
   border-bottom: 1px solid #004C99;
-  background: url("https://github.com/MeylinSoRe/EjerciciosCSS.github.io/blob/fd9b5ca2aa16b6292cb76b0f9203c16356ad6297/Ejercicio5/fondo_menu.png") repeat-x;
+  background: url(../Ejercicio5/fondo_menu.gif) repeat-x;
 }
 
 #contenido {
